@@ -6,7 +6,7 @@ function setup() {
   createCanvas(width, height);
   frameRate(60);
 
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 100; i++) {
     const boid = new Boid();
     boids.push(boid);
   }
